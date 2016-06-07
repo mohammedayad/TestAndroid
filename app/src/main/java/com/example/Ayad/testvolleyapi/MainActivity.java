@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     HashMap<String, String> params ;
 
 
+
     private static final String IMAGE_URL =
             "http://www.arabcont.com/projects/Images/A%20(18).jpg";
 //    private static String url = "https://api.kudan.eu/CMS/JSON/test.json";
@@ -82,6 +83,8 @@ public class MainActivity extends AppCompatActivity {
                 params.put("password","123");
                 params.put("repassword","123");
                 params.put("image","ayad.jpg");
+
+                Log.e("recived","volley");
 
                 setGson();
 
